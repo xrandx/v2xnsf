@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>车联网跨层设计基础理论与关键技术</title>
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script> -->
+    <link rel="stylesheet" href="http://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="http://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .navi_title {
+            background-color: rgb(52, 70, 103);
+            color: white;
+            padding: 10px 0 20px 0px;
+        }
+
+        #myCarousel .carousel-inner {
+            height: 300px;
+        }
+
+        .nsfc_logo {
+            background-image: url("img/nsfc.gif");
+            width: 107px;
+            height: 105px;
+            background-size: 90%;
+            background-repeat: no-repeat;
+        }
+
+        .ict_logo {
+            background-image: url("img/ict.png");
+            width: 100px;
+            height: 100px;
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+
+        .navi_footer {
+            background-color: rgb(52, 70, 103);
+            color: white;
+            padding: 15px;
+            margin-top: 20px;
+            margin-bottom: 0;
+        }
+
+        .bupt_logo {
+            background-image: url("img/bupt.png");
+            width: 100px;
+            height: 100px;
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+
+        .tongji_logo {
+            background-image: url("img/Tongji_University.png");
+            width: 100px;
+            height: 100px;
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+
+        .company{
+            color: white;
+            font-size: 90%;
+        }
+    </style>
+    
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="navi_title col-md-12">
+                <div class="row">
+                    <div class="nsfc_logo col-md-1 col-md-offset-1"></div>
+
+                    <div class="col-md-8">
+                        <h2>车联网跨层设计基础理论与关键技术</h2>
+                        <h4>国家自然科学基金重点项目</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+                <nav class="navbar navbar-default" role="navigation">
+                    <div class="container-fluid">
+                        <ul class="nav navbar-nav container">
+                            <!-- <div class="col-md-2"></div> -->
+                            <li class=" "><a href="index.html">首页</a></li>
+                            <li class=""><a href="project_acceptance.html">项目介绍</a></li>
+                            <li class="active"><a href="research_group.html">研究团队</a></li>
+                            <li class=" "><a href="project_dynamics.html">项目动态</a></li>
+                            <li><a href="research_results.html">研究成果</a></li>
+                            <li ><a href="videos.html">科普视频</a></li>
+                            <li><a href="contact_us.html">联系我们</a></li>
+                        </ul>
+    
+                    </div>
+                </nav>
+            </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="row">
+                        <ul class="breadcrumb">
+                            <li>
+                                    </li>
+                        </ul>
+                    </div>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <blockquote>
+                            <h3 style="font-weight:bolder">刘富强（项目负责人）</h3>
+                            <p>博士（后），同济大学责任教授，博士生导师，同济大学嵌入式系统与服务计算教育部重点实验室副主任，上海市优秀学科带头人，日本National Institute of
+                                Informatics（国立信息学研究所）客座教授，中国科学院客座研究员。2009
+                                年同济大学特等奖教金获得者，同济大学首届五四青年奖获得者。课题申请人多年从事车辆通信网络及应用的研究，熟悉本课题涉及领域的基础理论与应用技术，特别是车载通信、中继接入、无线资源管理、移动性测试等未来无线通信网络领域热点的研究技术，搭建过车载宽带无线接入系统仿真平台、硬件测试平台、无人驾驶汽车信息采集处理平台等。作为课题负责人先后承担了多项相关的研究课题，包括科技部863
+                                项目―基于移动中继技术的车辆通信网络的研究
+                                ‖(No.2007AA01Z239，2007.10-2009.10)、科技部国际合作重点项目(No.2005DFA10100)―下一代无线宽带互联网技术在城市交通网络中的应用‖（美国、法国、芬兰,
+                                2005.10-2008.1）、国际合作项目(美国硅谷基金2010-2011）―Service Access onHighway
+                                VANETs‖。在本项目中作为负责人进行总体方案设计，项目管理和评估测试规划。</p>
+                        </blockquote>
+
+                    </div>
+
+                    <div class="col-xs-6 text-center">
+                        <img src="img/lfq.png" alt="" style="margin-top:30px; max-width: 50%;">
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-xs-6">
+                        <blockquote>
+                            <h3>石晶林</h3>
+                            <p>中国科学院计算技术研究所博士生导师，研究员。
+                                主要科研经历：主持研制成功了IPv4/IPv6千兆转换网关、网络处理器、某型号雷达专用DSP处理器、面向奥运的多模移动多媒体终端，带领无线中心成功研制出具有国际先进水平的3G
+                                TDSCDMA、WiMAX、LTE等多个通信协议栈，主持无线中心LTE基带芯片研发，主持国家宽带无线重大专项“IMTA新型无线资源管理关键技术研究”及“TDD－LTE基带芯片开发”项目。以第一作者拥有发明专利9项，合作专利27项，正在申请的专利超过50项，发表学术论文近百篇，提交国内外无线通信技术标准提案30项。</p>
+                        </blockquote>
+
+                    </div>
+
+                    <div class="col-xs-6 text-center">
+                        <img src="img/sjl.jpg" alt="" style="margin-top:30px; max-width: 60%;">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <blockquote>
+                            <h3>周一青</h3>
+                            <p>中国科学院计算技术研究所博士生导师，研究员，2004年于香港大学获得博士学位，其后在香港大学担任博士后研究员，2008年加入香港应用科学研究院通信群组，担任主任工程师。目前为中科院计算所-ASTRI先进无线技术联合研究中心“百人计划”研究员，负责尖端移动通信技术的研发。</p>
+                            <p>
+                                周博士在国际国内知名期刊和会议上发表论文超过30篇，其中包括IEEE系列期刊论文9篇，为书籍“先进多天线系统”（英文）的作者之一，已申请3项美国专利。担任IEEE JSAC Guest Editor，担任Globecom，ISCIT，IWCCC等会议的TPC成员，PIMRC分会场主席。
+                            </p>
+                        </blockquote>
+
+                    </div>
+
+                    <div class="col-xs-6 text-center">
+                        <img src="img/zyq.jpg" alt="" style="margin-top:60px; width: 40%; height: 40%;">
+                    </div>
+                </div>
+
+                <div class="row">
+                        <div class="col-xs-6">
+                            <blockquote>
+                                <h3>郑侃</h3>
+                                <p>北京邮电大学教授 ，博士生导师，IEEE高级会员。目前的研究方向主要包括物联网/车联网应用与研究、5G关键技术研究等。主持或参与大量国家科研项目，包括国家重大专项、自然基金项目，国家973项目和863项目等。在国际重要期刊和学术会议上发表或者录用了200多篇学术论文，其中包括SCI收录的第一作者论文30余篇（中科院JCR期刊分区一区论文7篇，二区论文6篇）。在Google Scholar中引用已超过1500次，同时已有1篇论文成为ESI高被引论文。担任JNCA、ETT等多个国际学术期刊担任编辑；并且在IEEE Networks、IEEE Communications Magazine、IEEE Communications Surveys & Tutorials和IEEE Systems Journal等国际知名期刊上组织了多个特刊。曾担任Mobiquitous’2012的General Vice-Chair，IEEE PIMRC’2013的TPC Track Chair， IEEE SmartGridComm’2015的TPC Track Chair，IEEE WiMob’ 2015的 TPC Track Chair。另外，担任多个著名国际会议的TPC，包括IEEE INFOCOM、IEEE GLOBECOM、IEEE ICC和IEEE VTC等。</p>
+                            </blockquote>
+    
+                        </div>
+    
+                        <div class="col-xs-6 text-center">
+                            <img src="img/zk.jpg" alt="" style="margin-top:60px; width: 40%; height: 40%;">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <blockquote>
+                                <h3>尹学锋</h3>
+                                <p>男，1973年3月生，工学博士，教授，博士生导师, 同济大学电信学院副院长。1995年毕业于华中科技大学光电子工程系， 1996-2000年在杭州摩托罗拉移动系统公司任系统工程师，2002年于丹麦奥尔堡（Aalborg）大学通信系获数字通信专业工学硕士学位，2006年于丹麦奥尔堡大学通信系获无线通信专业工学博士学位，同年进入丹麦奥尔堡大学电子系统学院任助理教授，2008年进入同济大学电子与信息工程学院，2010年任电子科学与技术系副系主任，2016年3月任电信学院副院长。研究兴趣包括电波传播信道特征研究、高精度参数估计、雷达与无线感知、基于人工智能的特征学习与识别。</p>
+                            </blockquote>
+    
+                        </div>
+    
+                        <div class="col-xs-6 text-center">
+                            <img src="img/yxf.jpg" alt="" style="margin-top:60px; width: 40%; height: 40%;">
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <blockquote>
+                                <h3>王超</h3>
+                                <p>博士，同济大学副教授。本科毕业于中国科学技术大学电子信息工程专业（1998-2003），研究生和博士毕业于英国爱丁堡大学电子工程专业（2004-2009），2008年曾赴美国普林斯顿大学交流学习，2009年至2012年在瑞典皇家理工学院工作，任博士后研究员，2013年加入同济大学。</p>
+                                <p>研究领域为无线网络信息论、通信理论及信号处理，主要研究方向包括无线网络资源分配及干扰管理、MIMO技术、多用户协作通信、网络编码、认知无线电等。</p>
+                                <p>作为项目负责人承担过瑞典科研理事会基金项目“无线协作通信网络干扰协调技术”（Interference-Coordination in Wireless Cooperative Networks, 2010-2011）。作为瑞典皇家理工学院Co-project-coordinator参与过欧盟第七研发框架计划项目“次级频谱接入量化评估”（QUASAR-Quantitative Assessment of Secondary Spectrum Access, 2010-2012）和瑞典国家战略科研基金项目“无线接入网资源分配及多点协作”（RAMCOORAN-Resource Allocation and Multi-node Cooperation in Radio Access Networks, 2009-2012）。</p>
+                                <p>近年来在无线通信领域学术期刊和会议发表论文30余篇。已经先后12次被无线通信领域国际会议邀请作为TPC Member，并超过40次应邀作为IEEE TIT、TWC、TCOM、TSP、TVT、CL等期刊的评审人。</p>
+                            </blockquote>
+    
+                        </div>
+    
+                        <div class="col-xs-6 text-center">
+                            <img src="img/wc.jpg" alt="" style="margin-top:60px; width: 40%; height: 40%;">
+                        </div>
+                    </div>
+
+
+                    
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <blockquote>
+                                <h3>田霖</h3>
+                                <p>中国科学院计算技术研究所副研究员</p>
+                                <p>任职于中国科学院计算技术研究所无线通信技术研究中心，主要从事宽带无线通信系统无线资源管理与无线多媒体多播技术研究。在IEEE JSAC等国内外重要学术期刊和国际会议上发表相关论文30余篇，获国家发明专利授权11项，向国内外标准化组织提交提案35项，参与制定国家标准1项。作为项目负责人承担了国家自然基金（青年基金）、国家重大专项子课题、公司横向项目等。入选北京市科技新星，计算所卓越之星和学术百星。</p>
+                            </blockquote>
+    
+                        </div>
+    
+                        <div class="col-xs-6 text-center">
+                            <img src="img/tw.jpg" alt="" style="margin-top:60px; width: 40%; height: 40%;">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <blockquote>
+                                <h3>龙航</h3>
+                                <p>男，北京邮电大学副教授，硕士生导师。分别于2005年、2010年获北京邮电大学工学学士和博士学位，现在北京邮电大学信息与通信工程学院无线通信中心任教。近年来一直从事无线通信系统的研究工作，主持和参与了包括重大专项、自然基金，863、973等在内的大量研究项目，在国内外期刊会议上发表论文100余篇，申请专利30余项。</p>
+                            </blockquote>
+    
+                        </div>
+    
+                        <div class="col-xs-6 text-center">
+                            <img src="img/lh.jpg" alt="" style="margin-top:60px; width: 40%; height: 40%;">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <blockquote>
+                                <h3>李勇</h3>
+                                <p>北京邮电大学副教授，博士生导师。1979年生，2009年于北京邮电大学获信号与信息处理专业博士学位，毕业后留校任教至今。主要从事移动通信网络、无线网络协同信息论等方面的研究，目前的具体研究方向主要包括B4G/5G移动通信网络的新型网络架构和关键技术研究、基于全双工的无线组网、无线网络建模仿真与性能分析等。多次担任ICC、WCNC、VTC、CHINACOM、WiCON等国际学术会议的技术委员会成员或分会主席，长期担任IEEE Transactions Wireless Communications、IEEE Transactions on Vehicular Technology、IEEE Communications Letters等知名国际学术期刊的审稿人。作为项目负责人或子课题负责人承担国家自然科学基金、国家科技重大专项、国家863计划等多个国家科技项目，同时还承担与爱立信、都科摩、华为海思、大唐、索尼、智谷等知名国内外企业的合作研发项目。近年来在IEEE Transactions on Vehicular Technology、IEEE Network、IEEE Signal Processing Letters、IEEE Communications Letters、IEEE ICC/GLOBECOM/WCNC/PIMRC等国际著名学术期刊和学术会议发表论文50余篇，单篇最高SCI他引60余次；申请发明专利30余项，其中已授权发明专利19项；出版学术专著1本、译著2本；提交国际国内标准化提案文稿6篇；获得软件著作权3项。</p>
+                            </blockquote>
+    
+                        </div>
+    
+                        <div class="col-xs-6 text-center">
+                            <img src="img/ly.jpg" alt="" style="margin-top:60px; width: 40%; height: 40%;">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <blockquote>
+                                <h3>陈康力</h3>
+                                <p>同济大学讲师。2015年获同济大学交通规划与管理博士学位。美国伊利诺伊大学香槟分校（UIUC）电气与计算机工程系做访问学者。主要从事计算机网络与图像处理课程的教学。主要科研工作方向为智能交通领域的信号处理和人工智能应用；交通大数据信息平台建立与数据分析挖掘，交通系统仿真。</p>
+                            </blockquote>
+    
+                        </div>
+    
+                        <div class="col-xs-6 text-center">
+                            <!-- <img src="img/ly.jpg" alt="" style="margin-top:60px; width: 40%; height: 40%;"> -->
+                        </div>
+                    </div>
+                    
+
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <blockquote>
+                                <h3>郭爱煌</h3>
+                                <p>博士，同济大学信息与通信工程系教授，博士研究生导师，中国电子教育学会理事，中国电子教育学会高等教育分会常务理事，中国电子教育学会研究生教育分会理事；科技部、教育部、国家自然科学基金委、上海市科委等同行评议专家；电子学报、电子与信息学报、通信学报、系统工程与电子技术、传感器学报等多家学术期刊专业审稿人。从事宽带无线通信网络与技术、信号与信息处理的研究和教学，已发表学术论文100多篇，专著2部，发明专利多项；获省部级科技进步二等奖、上海市教学成果二等奖。主持完成国家科技支撑计划子课题、国家自然科学基金、国家重点实验室开放课题和企业研究开发课题等项目的研究；参加完成国家自然科学基金重点、“863”、国家科技专项和国际合作等项目。目前的研究方向为： 5G中的低时延高可靠通信理论与技术及其在车联网中的应用； 5G中的massive MIMO理论与技术及其应用。</p>
+                            </blockquote>
+    
+                        </div>
+    
+                        <div class="col-xs-6 text-center">
+                            <img src="img/gah.jpg" alt="" style="margin-top:60px; width: 40%; height: 40%;">
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <blockquote>
+                                <h3>刘儿兀</h3>
+                                <p>博士，同济大学信息与通信工程系教授，博士生导师。IET会士 (IET Fellow)、ACM高级会员 (ACM Senior Member)、IEEE高级会员(IEEE Senior Member)、CCF中国计算机学会杰出会员(Distinguished Member)、阿尔卡特-朗讯研究院ALTA，以及SCI期刊IEEE Communications Letters 副主编、KSII Transactions on Internet and Information Systems编委、China Communications编委、IEEE Access编委 。研究兴趣包括：机器学习、室内定位技术、复杂网络、磁通信、深穿透通信、无线通信、Massive MIMO、优化算法等。</p>
+                            </blockquote>
+    
+                        </div>
+    
+                        <div class="col-xs-6 text-center">
+                            <img src="img/lew.png" alt="" style="margin-top:60px; width: 40%; height: 40%;">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <blockquote>
+                                <h3>王平</h3>
+                                <p>同济大学信息与通信工程系副教授，博士生导师。长期以来从事车联网相关的基础性研究、技术开发和示范验证工作。近年来，承担或主持了课题有国家自然科学基金、国家863项目子课题、科技部国际合作项目子课题、工信部国家科技重大专项、上汽合作项目、上海无线通信研究中心合作项目、华为合作项目、重点实验室开放课题等。公开发表学术论文50多篇，申请国家发明专利10多项；登记软件著作权1项；提交国家标准化提案6份；参与编写国家“十一五”规划教材1部，参与编写外文专著1部。</p>
+                            </blockquote>
+    
+                        </div>
+    
+                        <div class="col-xs-6 text-center">
+                            <img src="img/wp.jpg" alt="" style="margin-top:60px; width: 40%; height: 40%;">
+                        </div>
+                    </div>
+
+            </div>
+
+
+        </div>
+        <div class="row navi_footer">
+            <div class="tongji_logo col-md-1 col-md-offset-1"></div>
+            <div class="ict_logo col-md-1 "></div>
+            <div class="bupt_logo col-md-1 "></div>
+            <div class=" col-md-4  col-md-offset-1 company"> 
+                <h4>牵头单位</h4>
+                <p>同济大学</p>
+                <h4>合作单位</h4>
+                <p>中国科学院计算技术研究所</p>
+                <p>北京邮电大学</p>
+            </div>
+            <div class=" col-md-2 company"> 
+                    <h4>联系方式</h4>
+                    <a href="mailto:#">bwm_lab@163.com</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+<script>
+    $(".navbar-nav").on("click", "li", function () {
+        $(".navbar-nav li").each(function () {
+            $(this).removeClass("active");
+        })
+        $(this).addClass("active");
+    })
+</script>
+
+</html>
